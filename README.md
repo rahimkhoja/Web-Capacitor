@@ -1,5 +1,5 @@
-Alt-H1 Rahim’s Lazy Semi-High Availability Web Capacitor
-# By: Rahim Khoja (rahim@khoja.ca)
+====== Rahim’s Lazy Semi-High Availability Web Capacitor
+## By: Rahim Khoja (rahim@khoja.ca)
 
 If you want a high availability server that also gets high scores on Google Page Speed Insights, but don’t want to play with code, this is how to do it. This concoction should also be more secure than the standard Web Server. It really works best with websites and web applications that have at least 150 users a day or more. Getting higher scores on Page Speed Insights ensures websites get better Google search rankings. 
 
