@@ -1,9 +1,11 @@
-====== Rahim’s Lazy Semi-High Availability Web Capacitor
-## By: Rahim Khoja (rahim@khoja.ca)
+# Rahim’s Lazy Semi-High Availability Web Capacitor
+### By: Rahim Khoja (rahim@khoja.ca)
+
+## Description
 
 If you want a high availability server that also gets high scores on Google Page Speed Insights, but don’t want to play with code, this is how to do it. This concoction should also be more secure than the standard Web Server. It really works best with websites and web applications that have at least 150 users a day or more. Getting higher scores on Page Speed Insights ensures websites get better Google search rankings. 
 
-#Components:
+## Components:
 
 1.	The Internet with a Public Static IP
 2.	Router/Firewall
@@ -18,7 +20,7 @@ If you want a high availability server that also gets high scores on Google Page
 11.	Some Bash Scripts (eg. CertBot SSL Deployment or Backup Scripts)
 12.	(Optional) Random Internal Web Servers (eg. Lamp Stacks/Wamp Stacks/IIS/Tomcat) 
 
-#Systems:
+## Systems:
 
 1.	(1) The Router/Firewall
 This routes TCP for port 80 & 443 from the public interface to the HA-Proxy Server. 
