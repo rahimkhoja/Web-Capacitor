@@ -39,4 +39,4 @@ Internal Web Servers can be any web server flavor with any web application runni
 
 ## Diagram:
 
-    ![alt text](https://github.com/CanadianRepublican/Web-Capacitor/blob/master/Web%20Capacitor.png "Rahim's Web Capacitor Diagram")
+![alt text](https://github.com/CanadianRepublican/Web-Capacitor/blob/master/Web-Capacitor.png "Rahim's Web Capacitor Diagram")
