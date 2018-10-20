@@ -36,3 +36,6 @@ This server acts as the master controller for this web system. It is used to man
 
 5.	(Optional) Internal Web Servers
 Internal Web Servers can be any web server flavor with any web application running on it. The web traffic will be proxied from this server to the NGINX/Apache Servers, then on to the internet. It allows the NGINX/Apache servers to optimize and enhance the data. The web traffic should be plain http rather than https as the NGINX/Apache Server will provide SSL.
+
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
