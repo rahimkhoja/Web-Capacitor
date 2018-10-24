@@ -1,6 +1,30 @@
 #!/usr/bin/env php
-<?php
+# Domain/Subdomain Submitter
+# By Rahim Khoja (rahim@khoja.ca)
 
+#
+░░░░░░░░▀▀▀██████▄▄▄
+░░░░░░▄▄▄▄▄░░█████████▄
+░░░░░▀▀▀▀█████▌░▀▐▄░▀▐█
+░░░▀▀█████▄▄░▀██████▄██
+░░░▀▄▄▄▄▄░░▀▀█▄▀█════█▀
+░░░░░░░░▀▀▀▄░░▀▀███░▀░░░░░░▄▄
+░░░░░▄███▀▀██▄████████▄░▄▀▀▀██▌
+░░░██▀▄▄▄██▀▄███▀▀▀▀████░░░░░▀█▄
+▄▀▀▀▄██▄▀▀▌█████████████░░░░▌▄▄▀
+▌░░░░▐▀████▐███████████▌
+▀▄░░▄▀░░░▀▀██████████▀
+░░▀▀░░░░░░▀▀█████████▀
+░░░░░░░░▄▄██▀██████▀█
+░░░░░░▄██▀░░░░░▀▀▀░░█
+░░░░░▄█░░░░░░░░░░░░░▐▌
+░▄▄▄▄█▌░░░░░░░░░░░░░░▀█▄▄▄▄▀▀▄
+▌░░░░░▐░░░░░░░░░░░░░░░░▀▀▄▄▄▀
+echo "---Domain & Subdomain submitter for Bing and Google---"
+echo "---By: Rahim Khoja (rahim.khoja@alumni.ubc.ca)---"
+echo
+
+<?php
 if (php_sapi_name() !== 'cli') {
     error_log('This CLI script can only be executed from the command line.');
     die('CLI access only.');
@@ -53,3 +77,4 @@ foreach ($argv as $s) {
     $returnCode = myCurl($url, "Bing/MSN");
 }
 echo "Completed at ".date('Y-m-d H:i:s')."\n\r\n";
+?>
