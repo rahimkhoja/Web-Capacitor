@@ -40,3 +40,25 @@ Internal Web Servers can be any web server flavor with any web application runni
 ## Diagram:
 
 ![alt text](https://github.com/CanadianRepublican/Web-Capacitor/blob/master/Web-Capacitor.png "Rahim's Web Capacitor Diagram")
+
+
+
+## Support
+
+Since I am extremely lazy I am not going to offer any support. Well maybe every once-n-a while. It really depends on my mood. 
+
+That being said, time was spent documenting each command in the scripts. This should allow the scripts to be easily understood and modified if needed. 
+
+
+## Donations
+Many Bothans died getting this Semi-High Availability Web Capacitor to you, honor them by sending me some Crypto. ;)
+
+ETH Mainnet: 0x1F4EABD7495E4B3D1D4F6dac07f953eCb28fD798   
+BNB Chain: 0x1F4EABD7495E4B3D1D4F6dac07f953eCb28fD798   
+
+
+
+## License
+Released under the GNU General Public License v3. 
+
+http://www.gnu.org/licenses/gpl-3.0.html
